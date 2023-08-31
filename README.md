@@ -1,5 +1,8 @@
 # PlatSelectors ![PlatSelectors Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Poké_Ball_icon.svg/32px-Poké_Ball_icon.svg.png)
 
+[![npm version](https://badge.fury.io/js/platselectors.svg)](https://badge.fury.io/js/platselectors)
+
+
 A centralized repository of platform-specific selectors for web scraping and automation. Whether you're using Puppeteer, Playwright, or any other web automation tool, PlatSelectors aims to simplify your scraping needs by providing up-to-date selectors for popular platforms.
 
 ## Features
