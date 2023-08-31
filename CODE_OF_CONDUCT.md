@@ -1,7 +1,3 @@
-Of course! Below is a basic `CODE_OF_CONDUCT.md` based on the Contributor Covenant, which is a widely adopted code of conduct for open-source projects:
-
----
-
 # Code of Conduct for PlatSelectors
 
 ## 1. Our Pledge
