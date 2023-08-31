@@ -1,7 +1,3 @@
-Certainly! Here's a basic `CONTRIBUTING.md` guide for your **PlatSelectors** project:
-
----
-
 # Contributing to PlatSelectors
 
 Thank you for your interest in contributing to PlatSelectors! 🎉 This document will guide you through the process.
