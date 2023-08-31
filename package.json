@@ -1,5 +1,5 @@
 {
-  "name": "PlatSelectors",
+  "name": "platselectors",
   "version": "1.0.0",
   "description": "This can help web scraping and automation scripts to be more modular and easily maintainable.",
   "main": "index.js",
