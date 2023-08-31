@@ -1,0 +1,95 @@
+{
+    "domain": "google.com",
+    "searchPage": {
+        "input": "input[name='q']",
+        "searchButton": "input[name='btnK']",
+        "results": "div#search div.g",
+        "resultTitle": "h3",
+        "resultURL": "cite",
+        "resultDescription": "span.st",
+        "nextPage": "a#pnnext",
+        "previousPage": "a#pnprev",
+        "pagination": {
+            "active": "span.cur",
+            "number": "td a.fl"
+        }
+    },
+    "imageSearchPage": {
+        "input": "input[name='q']",
+        "searchButton": "button[type='submit']",
+        "images": "div.rg_bx",
+        "imageLink": "a.rg_l",
+        "nextPage": "a#pnnext",
+        "previousPage": "a#pnprev"
+    },
+    "newsPage": {
+        "input": "input[name='q']",
+        "searchButton": "button[type='submit']",
+        "articles": "div.dbsr",
+        "articleTitle": "h3",
+        "articleSource": "div.xT5fDb",
+        "articleDescription": "span.BNeawe",
+        "nextPage": "a#pnnext",
+        "previousPage": "a#pnprev"
+    },
+    "shoppingPage": {
+        "input": "input[name='q']",
+        "searchButton": "button[type='submit']",
+        "searchPage": {
+            "results": "div.sh-dgr__grid-result",
+            "title": "div.sh-dgr__grid-result > a > h3",
+            "price": "span.T14wmb",
+            "image": "div.sh-dgr__grid-image > img",
+            "seller": "div.sh-dgr__grid-store",
+            "rating": "span.fTKmHE99XE4__star-s"
+        },
+        "nextPage": "span[aria-label='Next page']",
+        "pagination": {
+            "next": "span[aria-label='Next page']",
+            "disabled": "span[aria-label='Next page'].YyVfkd",
+            "active": "span[aria-label='Next page'].SJajHc"
+        },
+        "productPage": {
+            "title": "h1.SPZz6b",
+            "price": "span.T14wmb",
+            "description": "div[jsname='WgKync']",
+            "image": "img[src^='https://encrypted-tbn0.gstatic.com/shopping?q=']"
+        },
+        "validators": {
+            "isSearchPage": "body#gsr",
+            "isProductPage": "body#product"
+        }
+    },
+    "googleBusiness": {
+        "businessName": "div[data-attrid='title'] h2",
+        "address": "div[data-attrid='address'] span",
+        "phone": "div[data-attrid='kc:phone'] span",
+        "website": "div[data-attrid='kc:web'] span",
+        "hours": "table.rlfl__tls.rl_tls table span",
+        "reviews": {
+            "rating": "div.gm2-display-2",
+            "count": "div.gm2-caption",
+            "reviewList": "div.Jtu6Td",
+            "reviewerName": "div.TSUbDb",
+            "reviewText": "span.review-snippet",
+            "reviewDate": "span.p2TkOb"
+        },
+        "description": "div[data-attrid='kc:description'] span",
+        "features": "div[data-attrid='kc:features'] span",
+        "services": "div[data-attrid='kc:services'] span"
+    },
+    "urlPatterns": {
+        "search": "https://www.google.com/search?q=",
+        "images": "https://www.google.com/search?q=&tbm=isch",
+        "news": "https://www.google.com/search?q=&tbm=nws",
+        "shopping": "https://www.google.com/search?q=&tbm=shop"
+    },
+    "apiUrls": {
+        "customSearch": "https://www.googleapis.com/customsearch/v1"
+    },
+    "validators": {
+        "isSearchPage": "title:contains('Google Search')",
+        "isImageSearchPage": "title:contains('Google Images')",
+        "isShoppingPage": "title:contains('Google Shopping')"
+    }
+}

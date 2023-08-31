@@ -44,7 +44,3 @@ Stick to the [Standard JavaScript styleguide](https://standardjs.com/). This ens
 ## License
 
 By contributing to PlatSelectors, you agree that your contributions will be licensed under its MIT License.
-
----
-
-Remember, this is a basic guide. As the project grows, you may want to add more detailed sections or guidelines to ensure smooth contributions. The "Code of Conduct" link is a placeholder, and you might want to use a template like the [Contributor Covenant](https://www.contributor-covenant.org/) or create your own.
