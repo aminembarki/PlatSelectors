@@ -1,0 +1,41 @@
+{
+    "domain": "amazon.com",
+    "productPage": {
+        "title": "span#productTitle",
+        "price": "span#priceblock_ourprice",
+        "image": "img#landingImage",
+        "description": "div#productDescription",
+        "seller": "span.a-declarative > span > a",
+        "sellerRating": "span#acrCustomerReviewText",
+        "productDetails": "div#productDetails_feature_div"
+    },
+    "searchPage": {
+        "results": "div.s-main-slot > div",
+        "title": "h2 > a > span",
+        "price": "span.a-price > span",
+        "image": "div.a-section > span > a > div > img",
+        "rating": "span.a-icon-alt",
+        "prime": "i.a-icon-prime"
+    },
+    "nextPage": "ul.a-pagination > li.a-last > a",
+    "pagination": {
+        "next": "ul.a-pagination > li.a-last > a",
+        "disabled": "ul.a-pagination > li.a-disabled",
+        "active": "ul.a-pagination > li.a-selected"
+    },
+    "sellerPage": {
+        "name": "h1.a-spacing-small",
+        "rating": "span.a-declarative > a > i > span",
+        "totalRatings": "span.a-declarative > a > span",
+        "storefront": "div#storefront-link > a",
+        "feedback": "div#feedback-section > div > span > a"
+    },
+    "reviewPage": {
+        "allReviewsLink": "span#acrCustomerReviewText",
+        "individualReviews": "div.review",
+        "reviewTitle": "a.review-title",
+        "reviewRating": "i.review-rating > span",
+        "reviewDate": "span.review-date",
+        "reviewText": "span.review-text-content"
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "domain": "ebay.com",
+    "productPage": {
+        "title": "h1#itemTitle",
+        "price": "span#prcIsum",
+        "image": "img#icImg",
+        "description": "div#viTabs_0_is",
+        "seller": "span.mbg-nw",
+        "sellerRating": "span.mbg-l > a > span",
+        "itemSpecifics": "div#viTabs_0_is > table > tbody > tr",
+        "shippingInfo": "span#shSummary",
+        "returnPolicy": "span#vi-VR-brumb-lnk"
+    },
+    "searchPage": {
+        "results": "ul#ListViewInner > li",
+        "title": "h3.lvtitle > a",
+        "price": "li.lvprice > span.bold",
+        "image": "div.lvpicinner > a > img",
+        "description": "div.lvsubtitle",
+        "seller": "li.lvformat > span > span > a",
+        "sellerRating": "li.lvformat > span > span > a > span"
+    },
+    "nextPage": "td.pagn-next > a",
+    "pagination": {
+        "next": "td.pagn-next > a",
+        "disabled": "td.pagn-next > span",
+        "active": "td.pagn-next > a"
+    },
+    "sellerPage": {
+        "name": "h1.it-ttl",
+        "rating": "span.mbg-l > a > span",
+        "location": "span.mbg-l > a > span",
+        "description": "div.mbg > span"
+    },
+    "categoryPage": {
+        "categoryTitle": "h1.b-pageheader",
+        "productLinks": "ul.b-list__items_nofooter > li > a",
+        "productImages": "ul.b-list__items_nofooter > li > a > img"
+    },
+    "cartPage": {
+        "items": "div.cart-item-row",
+        "totalPrice": "span.ORDER_TOTAL",
+        "checkoutButton": "a#ptcBtnBottom"
+    }
+}

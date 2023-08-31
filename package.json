@@ -1,0 +1,9 @@
+{
+  "name": "PlatSelectors",
+  "version": "1.0.0",
+  "description": "This can help web scraping and automation scripts to be more modular and easily maintainable.",
+  "main": "index.js",
+  "repository": "git@github.com:aminembarki/PlatSelectors.git",
+  "author": "Amine Mbarki <aminembarki@gmail.com>",
+  "license": "MIT"
+}

@@ -1,0 +1,41 @@
+{
+    "domain": "reddit.com",
+    "urlPatterns": {
+        "subreddit": "^https?:\\/\\/www\\.reddit\\.com\\/r\\/[^\\/]+\\/",
+        "post": "^https?:\\/\\/www\\.reddit\\.com\\/r\\/[^\\/]+\\/comments\\/[^\\/]+\\/",
+        "user": "^https?:\\/\\/www\\.reddit\\.com\\/user\\/[^\\/]+\\/"
+    },
+    "subredditPage": {
+        "postLinks": "div.Post",
+        "postTitle": "h3._eYtD2XCVieq6emjKBH3m",
+        "postAuthor": "a._2tbHP6ZydRpjI44J3syuqC",
+        "postDate": "a._3jOxDPIQ0KaOWpzvSQo-1s",
+        "subscribers": "span.FHCV02u6Cp2zYL0fhQPsO",
+        "onlineNow": "span._3XFb1QwLW6hFyJnR8W1zYB",
+        "description": "div._3ei61r5OjYHHyAWEr6H7__"
+    },
+    "postPage": {
+        "title": "h1._eYtD2XCVieq6emjKBH3m",
+        "content": "div._292iotee39Lmt0MkQZ2hPV",
+        "author": "a._2tbHP6ZydRpjI44J3syuqC",
+        "date": "a._3jOxDPIQ0KaOWpzvSQo-1s",
+        "upvotes": "div._1E9mcoVn4MYnuBQSVDt1gC",
+        "comments": "div._1rZYMD_4xY3gRcSS3p8ODO"
+    },
+    "userPage": {
+        "username": "h1._3LYOAdC2tA14LO6yTmNLfI",
+        "karma": "div._3AStxql1mQsrZuUIFP9xSg",
+        "creationDate": "span._3VbVOaxI9fBk8PAl6i5kU1",
+        "posts": "div.Post",
+        "comments": "div.Comment"
+    },
+    "API": {
+        "base": "https://www.reddit.com/.json",
+        "subreddit": "https://www.reddit.com/r/{subreddit}/.json",
+        "post": "https://www.reddit.com/r/{subreddit}/comments/{post_id}/.json",
+        "user": "https://www.reddit.com/user/{username}/.json"
+    },
+    "validators": {
+        "isRedditURL": "^https?:\\/\\/www\\.reddit\\.com\\/"
+    }
+}

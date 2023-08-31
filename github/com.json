@@ -1,0 +1,45 @@
+{
+    "domain": "github.com",
+    "repositoryPage": {
+        "title": "strong[itemprop='name'] > a",
+        "description": "p[itemprop='description']",
+        "stars": "a[href*='/stargazers'] > svg + span",
+        "forks": "a[href*='/network/members'] > svg + span",
+        "issues": "a[href*='/issues'] > svg + span",
+        "pullRequests": "a[href*='/pulls'] > svg + span",
+        "license": "a[href*='/blob/master/LICENSE']",
+        "readme": "article.Box-body.markdown-body.entry-content.container-lg"
+    },
+    "profilePage": {
+        "username": "span.vcard-username",
+        "fullname": "span.vcard-fullname",
+        "bio": "div.p-note.user-profile-bio",
+        "location": "span.p-label",
+        "email": "a[href^='mailto:']",
+        "website": "a[rel='me']",
+        "followers": "span.Counter[title*='followers']",
+        "following": "span.Counter[title*='following']",
+        "stars": "a[href*='/stars'] > svg + span"
+    },
+    "searchPage": {
+        "results": "ul.repo-list > li",
+        "repositoryTitle": "h3 > a",
+        "repositoryDescription": "p.mb-1",
+        "lastUpdated": "relative-time"
+    },
+    "URLPatterns": {
+        "repository": "https://github.com/{username}/{repository_name}",
+        "profile": "https://github.com/{username}",
+        "issue": "https://github.com/{username}/{repository_name}/issues/{issue_number}"
+    },
+    "APIEndpoints": {
+        "user": "https://api.github.com/users/{username}",
+        "repository": "https://api.github.com/repos/{username}/{repository_name}",
+        "issues": "https://api.github.com/repos/{username}/{repository_name}/issues"
+    },
+    "issuePage": {
+        "issueTitle": "span.js-issue-title",
+        "issueBody": "td.js-comment-body",
+        "labels": "a.IssueLabel"
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "domain": "tripadvisor.com",
+    "hotelPage": {
+        "title": "h1#HEADING",
+        "rating": "span.rzj8b7 > span.scBRiG",
+        "reviewsCount": "a._10Iv7dOs > span._3WF_jKL",
+        "address": "span._2saB_OSe",
+        "phone": "span._1M-1YYJt",
+        "description": "div._2f_ruteS._1bona3Pu._2uD5bLZZ",
+        "amenities": "div._2rdvbNSg",
+        "priceRange": "div._2mn01bsa",
+        "roomTypes": "div._2aZlo29m",
+        "location": "div._1lY2qyk3"
+    },
+    "restaurantPage": {
+        "name": "h1._3a1XQ88S",
+        "rating": "span.rzj8b7 > span.scBRiG",
+        "reviewsCount": "a._10Iv7dOs > span._3WF_jKL",
+        "priceRange": "div._2mn01bsa",
+        "cuisines": "div._2mn01bsa",
+        "address": "span._2saB_OSe",
+        "phone": "span._1M-1YYJt",
+        "description": "div._2f_ruteS._1bona3Pu._2uD5bLZZ",
+        "menu": "div._2rdvbNSg",
+        "location": "div._1lY2qyk3"
+    },
+    "attractionPage": {
+        "name": "h1._3a1XQ88S",
+        "rating": "span.rzj8b7 > span.scBRiG",
+        "reviewsCount": "a._10Iv7dOs > span._3WF_jKL",
+        "description": "div._2f_ruteS._1bona3Pu._2uD5bLZZ",
+        "address": "span._2saB_OSe",
+        "phone": "span._1M-1YYJt",
+        "location": "div._1lY2qyk3"
+    },
+    "review": {
+        "user": "div._2fxQ4TOx > span",
+        "rating": "span.rzj8b7 > span.scBRiG",
+        "date": "div._2fxQ4TOx > span._34Xs-BQm",
+        "title": "div.glasR4aX > a > span",
+        "content": "div._2f_ruteS._1bona3Pu._2uD5bLZZ"
+    },
+    "searchPage": {
+        "results": "div._1lY2qyk3",
+        "title": "div.glasR4aX > a > span",
+        "rating": "span.rzj8b7 > span.scBRiG",
+        "reviewsCount": "a._10Iv7dOs > span._3WF_jKL",
+        "location": "span._2saB_OSe",
+        "priceRange": "div._2mn01bsa"
+    },
+    "URLPatterns": {
+        "hotel": "/Hotel_Review-.*",
+        "restaurant": "/Restaurant_Review-.*",
+        "attraction": "/Attraction_Review-.*"
+    }
+}

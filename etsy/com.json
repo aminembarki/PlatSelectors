@@ -1,0 +1,48 @@
+{
+    "domain": "etsy.com",
+    "productPage": {
+        "title": "h1.wt-text-body-03",
+        "price": "span.wt-text-title-03",
+        "image": "img.wt-max-full",
+        "description": "div.wt-content-toggle__content",
+        "seller": "div.wt-display-flex-xs > a",
+        "sellerRating": "span.wt-rating-bd",
+        "itemDetails": "div.wt-mb-xs-1 > ul"
+    },
+    "searchPage": {
+        "results": "div.wt-grid.wt-grid--block > div",
+        "title": "h3.text-gray",
+        "price": "span.currency-value",
+        "image": "div.wt-position-relative > img",
+        "seller": "div.v2-listing-card__shop > a > p",
+        "sellerRating": "span.wt-rating-bd"
+    },
+    "nextPage": "nav.pagination-next > a",
+    "pagination": {
+        "next": "nav.pagination-next > a",
+        "disabled": "nav.pagination-next > span",
+        "active": "nav.pagination-next > a"
+    },
+    "sellerPage": {
+        "name": "h1.wt-text-heading-01",
+        "rating": "span.wt-rating-bd",
+        "location": "span.wt-text-caption",
+        "description": "div.wt-mb-xs-3 > p",
+        "itemsCount": "div.wt-show-xs > span.wt-text-caption",
+        "reviewsCount": "a.wt-text-link-no-underline > span.wt-text-caption",
+        "salesCount": "div.wt-show-xs > span.wt-text-caption"
+    },
+    "categoryPage": {
+        "results": "div.wt-grid.wt-grid--block > div",
+        "title": "h3.text-gray",
+        "price": "span.currency-value",
+        "image": "div.wt-position-relative > img",
+        "description": "div.v2-listing-card__shop > a > p",
+        "sellerRating": "span.wt-rating-bd"
+    },
+    "homepage": {
+        "featuredItems": "div.wt-grid__item-xs-6",
+        "topRatedSellers": "div.wt-grid__item-xs-6",
+        "trendingItems": "div.wt-grid__item-xs-6"
+    }
+}

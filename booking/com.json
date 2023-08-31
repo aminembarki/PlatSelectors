@@ -1,0 +1,41 @@
+{
+    "domain": "booking.com",
+    "hotelPage": {
+        "title": "h2.hp__hotel-name",
+        "rating": "div.bui-review-score__badge",
+        "reviewsCount": "div.bui-review-score__text",
+        "location": "span.hp_address_subtitle",
+        "description": "div.hotel_description_wrapper_exp",
+        "facilities": "div.hp_desc_important_facilities",
+        "images": "div.photos-distinct"
+    },
+    "searchResultsPage": {
+        "results": "div.sr_item",
+        "title": "span.sr-hotel__name",
+        "price": "div.price.availprice.no_rack_rate",
+        "rating": "div.bui-review-score__badge",
+        "reviewsCount": "div.bui-review-score__text",
+        "description": "div.hotel_desc",
+        "facilities": "div.important_facility"
+    },
+    "nextPage": "a.paging-next",
+    "pagination": {
+        "next": "a.paging-next",
+        "disabled": "a.paging-next.disabled",
+        "active": "li.bui-pagination__item.bui-pagination__item--active"
+    },
+    "flightPage": {
+        "flightDetails": "SELECTOR_NEEDED",
+        "departure": "SELECTOR_NEEDED",
+        "arrival": "SELECTOR_NEEDED",
+        "price": "SELECTOR_NEEDED",
+        "carrier": "SELECTOR_NEEDED"
+    },
+    "carRentalPage": {
+        "carDetails": "SELECTOR_NEEDED",
+        "price": "SELECTOR_NEEDED",
+        "pickupLocation": "SELECTOR_NEEDED",
+        "dropoffLocation": "SELECTOR_NEEDED",
+        "availability": "SELECTOR_NEEDED"
+    }
+}
