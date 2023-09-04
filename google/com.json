@@ -7,12 +7,7 @@
         "resultTitle": "h3",
         "resultURL": "cite",
         "resultDescription": "span.st",
-        "nextPage": "a#pnnext",
-        "previousPage": "a#pnprev",
-        "pagination": {
-            "active": "span.cur",
-            "number": "td a.fl"
-        }
+        "loadMoreButton": "div.WZH4jc a.T7sFge"
     },
     "imageSearchPage": {
         "input": "input[name='q']",
