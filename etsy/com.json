@@ -1,12 +1,15 @@
 {
     "domain": "etsy.com",
     "productPage": {
-        "title": "h1.wt-text-body-03",
-        "price": "span.wt-text-title-03",
+        "title": "h1.wt-text-body-01",
+        "price": "p.wt-text-title-03 span",
         "image": "img.wt-max-full",
-        "description": "div.wt-content-toggle__content",
-        "seller": "div.wt-display-flex-xs > a",
-        "sellerRating": "span.wt-rating-bd",
+        "description": "div#product-description-content-toggle p",
+        "seller": {
+            "name":  "div[data-appears-component-name=\"shop_owners\"]  p.wt-text-body-03  ",
+            "shop": "div[data-appears-component-name=\"shop_owners\"] a.wt-text-link  ",
+            "page": "span.wt-text-caption"
+        },
         "itemDetails": "div.wt-mb-xs-1 > ul"
     },
     "searchPage": {
